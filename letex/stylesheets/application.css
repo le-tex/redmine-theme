@@ -151,7 +151,7 @@ hr {
  * main tab menu
  */
 #main-menu li a {
-  margin-right: 0;
+  margin-right: .25rem;
 }
 #main-menu li a.new-object {
   border-radius: 100%;
