@@ -29,8 +29,7 @@ a, a:link, a:visited, .badge-status-open {
 #sidebar a.selected {
   background-color: #252930;
 }
-input[type = "submit"],
-button[type = "submit"] {
+input[type = "submit"], button[type = "submit"], #add_filter_select {
   background-color: #eee;
 }
 #quick-search #q, #project-jump .drdn-trigger, .drdn-content, #main-menu .menu-children li a, .pagination ul.pages li:first-child, .pagination ul.pages li:last-child,
