@@ -101,6 +101,9 @@ body {
 #content, #query_form_content {
   font-size: .9rem;
 }
+div.subject h3 {
+  font-size: 1.2rem;
+}
 /*
  *  borders 
  */
