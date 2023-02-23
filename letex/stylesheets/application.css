@@ -19,6 +19,10 @@
 a, a:link, a:visited, .badge-status-open {
   color: #d2032c
 }
+.badge-status-closed {
+  color: #ffffff;
+  background-color: #1d781d;
+}
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
   background-color: #d2032c;
 }
@@ -99,7 +103,7 @@ body {
 /*
  *  borders 
  */
-#sidebar, .badge-status-open, div.issue, .issue-report, .box, input, select, textarea, button, #content .tabs ul li a, #content .tabs ul li a.selected, .jstElements button,
+#sidebar, .badge-status-open, .badge-status-closed, div.issue, .issue-report, .box, input, select, textarea, button, #content .tabs ul li a, #content .tabs ul li a.selected, .jstElements button,
 #project-jump .drdn-trigger, .drdn-content, #quick-search #q, .drdn-items > *, #main-menu li a, #main-menu .menu-children.visible, #main-menu .menu-children,
 #sidebar a.selected .pagination ul.pages li:first-child, .pagination ul.pages li:last-child, #content .tabs ul {
   border-radius: 0;
