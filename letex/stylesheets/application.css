@@ -112,6 +112,10 @@ body {
 .jstElements button {
   border-radius: 0 !important;
 }
+hr {
+  height: .05rem;
+  background: #fff;
+}
 /* 
  * top menu
  */
