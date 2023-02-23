@@ -159,8 +159,8 @@ hr {
   font-weight: bold;
 }
 #main-menu li a:hover {
-  background: #d2032c;
-  color: #fff;
+  background: #ccc;
+  color: #252930;
 }
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
