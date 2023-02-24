@@ -16,7 +16,7 @@
 *, #top-menu a, #header h1, #header a, #admin-menu a, #main-menu li a, #sidebar a, .queries a, .contextual a, .buttons a, #projects-index a, input, select, textarea, button, #content .tabs ul li a {
   color: #252930;
 }
-a, a:link, a:visited, .badge-status-open {
+a, a:link, a:visited, .badge-status-open, div.journal ul.details a, ul.revision-info a {
   color: #d2032c
 }
 .badge-status-closed {
