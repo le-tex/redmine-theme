@@ -36,8 +36,18 @@ input[type = "submit"], button[type = "submit"], #add_filter_select {
 .badge-status-open, #filters-table input, #filters-table select, #list-definition input, #list-definition select {
   background-color: #eee;
 }
-.contextual .drdn-items>a {color:#252930  }
-.contextual .drdn-items>a:hover {color:#fff; background-color:#252930; }
+.contextual .drdn-items>a {
+color:#252930  
+}
+.contextual .drdn-items>a:hover {
+color:#fff; background-color:#252930; 
+}
+tr.context-menu-selection, tr.context-menu-selection a {
+  background-color:#bbb !important; color:#252930 !important;
+}
+tr.context-menu-selection:hover, tr.context-menu-selection a:hover {
+  background-color:#bbb !important; color:#252930 !important;
+}
 /* 
  * margins 
  */
