@@ -154,6 +154,7 @@ hr {
   min-height: 8rem;
   background-origin: content-box;
   padding-top: .5rem;
+  border-bottom:1px solid #ccc;
 }
 #header h1 {
   margin-left: 220px;
@@ -161,11 +162,34 @@ hr {
   font-weight: 300;
   font-size: 2.2rem;
 }
+@media screen and (max-width: 899px) {
+  #header {
+    background-color:inherit !important;
+  }
+  #header a.mobile-toggle-button {
+    border:none;
+  }
+  #header a.mobile-toggle-button::after {
+    color:#252930;
+  }
+  #project-jump.drdn {
+    padding-left:150px !important;
+  }
+  #project-jump .drdn-trigger {
+    color:#252930 !important;
+  }
+}
 /* 
  * main tab menu
  */
+#main-menu {
+  bottom:.5rem;
+}
+#main-menu li {
+  padding:0 .5rem 0 0;
+  margin:0;
+}
 #main-menu li a {
-  margin-right: .25rem;
 }
 #main-menu li a.new-object {
   border-radius: 100%;
@@ -188,6 +212,7 @@ hr {
 #main-menu .menu-children li a:hover, #project-jump .drdn-items>a:hover, .contextual .drdn-items>a:hover {
   color:#252930; background-color: #ccc;
 }
+
 /* 
  * mini tab menu
  */
@@ -258,4 +283,52 @@ table.list:not(.odd-even) tbody tr:nth-child(even):hover,
   color:#252930;
   text-decoration: inherit;
 }
+/*
+ * wiki
+ */
+div.wiki ul.toc {
+  line-height:1rem;
+}
+div.wiki ul.toc a {
+  font-size:.8rem;
+}
+.wiki h1, h2, h3, h4, h5, h6 {
+  font-weight:300;
+}
+.wiki h1 {
+  font-size:2.8rem;
+  font-weight:500;
+}
+.wiki h2 {
+  font-size:2.8rem;
+  font-weight:300;
+}
+.wiki h3 {
+  font-size:1.6rem;
+  font-weight:700;
+}
+.wiki h4 {
+  font-size:1.6rem;
+  font-weight:300;
+}
+.wiki h5 {
+  font-size:1.2rem;
+  font-weight:700;
+}
+.wiki h6 {
+  font-size:1.2rem;
+  font-weight:normal;
+  font-style:italic;
+  color:inherit;
+}
+#sidebar h1, #sidebar h2 {
+  font-size:1.8rem;
+}
+#sidebar h3, #sidebar h4 {
+  font-size:1.3rem;
+}
+#sidebar h5, #sidebar h6 {
+  font-size:1rem;
+}
+
 
