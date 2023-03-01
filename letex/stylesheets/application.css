@@ -306,6 +306,7 @@ table.list, .table-list {
 }
 table.list th, .table-list-header {
   background-color: #fff;
+  border-top: 1px solid #eee;
 }
 table.list:not(.odd-even) tbody tr:nth-child(2n+1),
 .odd, #issue-changesets div.changeset:nth-child(2n+1) {
