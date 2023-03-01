@@ -297,8 +297,12 @@ background-color:#ccc; color:#252930;
 .box, div.issue, table.cal td.today, div.wiki ul.toc, .gantt_subjects div.issue-subject:hover {
   background-color: #eee !important;
 }
-issues.box, spent_time.box, members box {
-  background-color: #fff !important;
+.issues.box, .spent_time.box, .members.box {
+  background-color: #fff; border:1px solid #ccc;
+  padding:1rem;
+}
+#history div:target h4.note-header {
+  background-color: #ccc;
 }
 /*
  * news
