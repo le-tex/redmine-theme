@@ -13,6 +13,12 @@
   color: #ffffff;
   background-color: #d2032c;
 }
+@media screen and (min-width: 1299px) {
+  #content {
+    padding-left:3.5rem;
+    padding-right:1.5rem
+  }
+}
 *, #top-menu a, #header h1, #header a, #admin-menu a, #main-menu li a, .queries a, .contextual a, .buttons a, #projects-index a, input, select, textarea, button, #content .tabs ul li a {
   color: #252930;
 }
@@ -141,9 +147,9 @@ hr {
   background-color:inherit;
   border: 1px solid #ccc;
 }
-#login-form #username {
-  background:#eee !important;
-} 
+#login-form #username, #login-form #password {
+  background-color:#eee !important;
+}
 /* 
  * top menu
  */
@@ -322,28 +328,25 @@ div.wiki ul.toc {
 div.wiki ul.toc a {
   font-size:.8rem;
 }
-.wiki h1, h2, h3, h4, h5, h6 {
-  font-weight:300;
-}
 .wiki h1 {
   font-size:2.8rem;
-  font-weight:500;
+  font-weight:300;
 }
 .wiki h2 {
-  font-size:2.8rem;
-  font-weight:300;
+  font-size:2rem;
+  font-weight:500;
 }
 .wiki h3 {
   font-size:1.6rem;
-  font-weight:700;
+  font-weight:500;
 }
 .wiki h4 {
-  font-size:1.6rem;
-  font-weight:300;
+  font-size:1.2rem;
+  font-weight:700;
 }
 .wiki h5 {
   font-size:1.2rem;
-  font-weight:700;
+  font-weight:500;
 }
 .wiki h6 {
   font-size:1.2rem;
@@ -351,14 +354,32 @@ div.wiki ul.toc a {
   font-style:italic;
   color:inherit;
 }
-#sidebar h1, #sidebar h2 {
-  font-size:1.8rem;
+.wiki h1,
+.wiki h2,
+.wiki h3,
+.wiki h4,
+.wiki h5,
+.wiki h6 { margin:1.75rem 0 .5rem 0 }
+#sidebar h1 {
+  font-size:1.7rem;
+  font-weight:500;
 }
-#sidebar h3, #sidebar h4 {
-  font-size:1.3rem;
+#sidebar h2 {
+  font-size:1.5rem;
+  font-weight:500;
 }
-#sidebar h5, #sidebar h6 {
+#sidebar h3 {
+  font-size:1.2rem;
+  font-weight:700;
+  color:inherit;
+}
+#sidebar h4 {
   font-size:1rem;
 }
-
-
+#sidebar h5 {
+  font-size:1rem;
+  font-style:italic;
+}
+#sidebar h6 {
+  font-size:1rem;
+}
