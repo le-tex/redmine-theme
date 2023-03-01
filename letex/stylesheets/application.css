@@ -415,3 +415,15 @@ div.wiki ul.toc a {
 #sidebar h6 {
   font-size:1rem;
 }
+div.wiki a:target + h1, div.wiki a:target + h2, div.wiki a:target + h3, div.wiki a:target + h4, div.wiki a:target + $
+  background-color:#ccc;
+}
+div.wiki ul.toc a {
+  font-size:#252930;
+}
+div.wiki ul.toc {
+  background-color:#eee;
+  border:none;
+  padding:.75rem
+}
+
