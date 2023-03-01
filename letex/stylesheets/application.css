@@ -57,6 +57,22 @@ tr.context-menu-selection:hover, tr.context-menu-selection a:hover {
 textarea:focus, textarea:active, select:focus, select:active, input:focus, input:active, input:checked {
   border: none !important;
 }
+div.issue {
+  background-color:#fff !important;
+  border: 1px solid #ccc !important;
+  padding: 1rem;
+}
+div.issue hr {
+  height:1px;
+  background-color:#ccc;
+}
+#history div.journal {
+  padding:.5rem;
+}
+#content h2 {
+  font-size:2rem;
+  font-weight:300
+}
 /* 
  * margins 
  */
