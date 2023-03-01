@@ -365,8 +365,8 @@ div.wiki ul.toc a {
   font-weight:300;
 }
 .wiki h2 {
-  font-size:2rem;
-  font-weight:500;
+  font-size:2rem !important;
+  font-weight:500 !important;
 }
 .wiki h3 {
   font-size:1.6rem;
@@ -397,8 +397,8 @@ div.wiki ul.toc a {
   font-weight:500;
 }
 #sidebar h2 {
-  font-size:1.5rem;
-  font-weight:500;
+  font-size:1.5rem !important;
+  font-weight:500 !important;
 }
 #sidebar h3 {
   font-size:1.2rem;
