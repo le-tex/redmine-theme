@@ -295,7 +295,18 @@ background-color:#ccc; color:#252930;
  * box
  */
 .box, div.issue, table.cal td.today, div.wiki ul.toc, .gantt_subjects div.issue-subject:hover {
-  background-color: #eee;
+  background-color: #eee !important;
+}
+issues.box, spent_time.box, members box {
+  background-color: #fff !important;
+}
+/*
+ * news
+ */
+article.news-article {
+  border:1px solid #ccc;
+  margin-bottom:1rem;
+  padding:1rem;
 }
 /* 
  * tables 
