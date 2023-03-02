@@ -156,6 +156,13 @@ hr {
   height: .05rem;
   background: #fff;
 }
+.mypage-box {
+  border: 1px solid #ccc;
+  border-radius: 0 
+}
+#block-select {
+  background-color:#eee;
+}
 /* 
  * login form
  */
