@@ -347,8 +347,20 @@ table.list:not(.odd-even) tbody tr:nth-child(even):hover,
 /* 
  * pagination
  */
+.pagination ul.pages li.page, .pagination ul.pages li.spacer {
+  border:1px solid #eee;
+}
 .pagination ul.pages li.current {
-  background-color: #ccc; 
+  background-color: #ccc;
+  border:1px solid #ccc;
+}
+.pagination ul.pages li.page:hover {
+  background-color: #eee;
+}
+.pagination ul.pages li.next, .pagination ul.pages li.previous {
+  background-color: #eee;
+  border:1px solid #eee;
+  border-radius:0;
 }
 .pagination ul.pages li.page a{
   color:#252930;
@@ -357,6 +369,9 @@ table.list:not(.odd-even) tbody tr:nth-child(even):hover,
 .pagination ul.pages li.page a:active {
   color:#252930;
   text-decoration: inherit;
+}
+.badge-count {
+  background-color:#252930;
 }
 /*
  * wiki
