@@ -29,6 +29,9 @@ a, a:link, a:visited, .badge-status-open, div.journal ul.details a, ul.revision-
   color: #ffffff;
   background-color: #1d781d;
 }
+.nodata {
+  background-color:#fff; border: 1px solid #ccc; color:#252930;
+}
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
   background-color: #d2032c;
 }
