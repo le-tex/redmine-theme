@@ -38,7 +38,7 @@ a, a:link, a:visited, .badge-status-open, div.journal ul.details a, ul.revision-
 #sidebar a.selected {
   background-color: #252930;
 }
-input[type = "submit"], button[type = "submit"], #add_filter_select {
+input[type = "submit"], button[type = "submit"], #add_filter_select, #users_form input, #users_form select, #name, #role_id, #tracker_id {
   background-color: #eee;
 }
 #quick-search #q, #project-jump .drdn-trigger, .drdn-content, #main-menu .menu-children li a, .pagination ul.pages li:first-child, .pagination ul.pages li:last-child,
@@ -313,6 +313,7 @@ background-color:#ccc; color:#252930;
 }
 #history div:target h4.note-header {
   background-color: #ccc;
+  padding:.25rem !important;
 }
 /*
  * news
