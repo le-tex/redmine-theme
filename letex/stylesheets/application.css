@@ -312,7 +312,7 @@ background-color:#ccc; color:#252930;
   padding:1rem;
 }
 #history div:target h4.note-header {
-  background-color: #ccc;
+  background-color: #eee;
   padding:.25rem !important;
 }
 /*
