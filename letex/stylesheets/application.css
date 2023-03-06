@@ -315,6 +315,10 @@ background-color:#ccc; color:#252930;
   background-color: #eee;
   padding:.25rem !important;
 }
+#history div:target .contextual {
+  margin-right:.25rem;
+  margin-top:.25rem;
+}
 /*
  * news
  */
