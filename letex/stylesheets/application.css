@@ -459,5 +459,10 @@ div.wiki pre, pre {
   border:1px solid #ccc;
   background-color:#efefef;
 }
-
-
+/*
+ * agile plugin
+ */
+.issue-card {
+  border: solid 1px #ccc !important ;
+  background-color: #efefef !important;
+}
