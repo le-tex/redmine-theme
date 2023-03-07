@@ -302,7 +302,7 @@ background-color:#ccc; color:#252930;
 /* 
  * box
  */
-.box, div.issue, table.cal td.today, div.wiki ul.toc, .gantt_subjects div.issue-subject:hover {
+.box, table.cal td.today, div.wiki ul.toc, .gantt_subjects div.issue-subject:hover {
   background-color: #eee !important;
 }
 .issues.box, .spent_time.box, .members.box {
@@ -465,4 +465,10 @@ div.wiki pre, pre {
 .issue-card {
   border: solid 1px #ccc !important ;
   background-color: #efefef !important;
+}
+.wiki-preview { 
+  border:none;
+}
+textarea, #preview_issue_notes {
+  padding:.5rem
 }
