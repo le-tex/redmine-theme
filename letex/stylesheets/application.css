@@ -145,7 +145,7 @@ div.subject h3 {
  *  borders 
  */
 #sidebar, #sidebar a.selected, .badge-status-open, .badge-status-closed, div.issue, .issue-report, .box, input, select, textarea, button, #content .tabs ul li a, #content .tabs ul li a.selected, .jstElements button,
-#project-jump .drdn-trigger, .drdn-content, #quick-search #q, .drdn-items > *, #main-menu li a, #main-menu .menu-children.visible, #main-menu .menu-children,
+#project-jump .drdn-trigger, .drdn-content, #quick-search #q, .drdn-items > *, #main-menu li a, #main-menu .menu-children.visible, #main-menu .menu-children, #errorExplanation, div.flash, .nodata, .warning, .conflict,
 #sidebar a.selected .pagination ul.pages li:first-child, .pagination ul.pages li:last-child, #content .tabs ul, #login-form {
   border-radius: 0;
   border: 0;
