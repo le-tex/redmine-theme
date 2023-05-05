@@ -64,7 +64,7 @@ div.issue {
   padding: 1rem;
 }
 div.issue hr {
-  height:1px;
+  height:.07rem;
   background-color:#ccc;
 }
 #history div.journal {
@@ -154,8 +154,8 @@ div.subject h3 {
   border-radius: 0 !important;
 }
 hr {
-  height: .05rem;
-  background: #fff;
+  height: .07rem;
+  background: #ccc;
 }
 .mypage-box {
   border: 1px solid #ccc;
